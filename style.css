@@ -1,0 +1,391 @@
+/*---FOR ALL---*/
+
+body{
+  margin: 0 auto;
+  font-family: 'Open Sans', Courier, monospace;
+  text-align: left;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+#button{
+  border: none;
+}
+
+.container{
+  width: 1000px;
+  display: block;
+  margin: auto;
+
+  
+}
+
+/*---Header---*/
+
+.header{
+  width:100%;
+  background-color: #ffdc00;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:100px;
+  padding-top: 6px;
+}
+
+.headerRow{
+  display: flex;
+  justify-content: space-around;
+  margin: 1px -340px;
+  align-items: center;
+  
+}
+.logoTextFirst{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #333333;
+  letter-spacing: 2px;
+}
+
+.logoTextFirst1{
+  font-weight: 700;
+}
+
+.logoTextFirst2{
+  font-weight: 300;
+}
+
+.logoTextSecond{
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1.4px;
+  color: #6f6f6f;
+  text-transform: uppercase;
+}
+
+.callNumber{
+  font-size:16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color:#333333;
+  margin-top: 10px;
+}
+
+.buttonCall{
+  background: #333333;
+  border-radius: 8px;
+  color: #ffffff;
+  height: 40px;
+  width: 170px; 
+  margin: 10px auto;
+}
+.requestCall{
+  text-align: right;
+  align-items: flex-end;
+}
+/*---MAIN PAGE---*/
+
+.mainPage{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120vh;
+  background: url('./img/background.png')  no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.rightColumn{
+  display: block;
+  text-align: right;
+}
+
+
+.leftColumn{
+  display: block; 
+  margin: 0 90px;
+
+}
+
+#bigText{
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 70px;
+}
+#bigTextWhite{
+  color:#ffffff;
+}
+.bigTextYellow{
+  color: #ffdc00;
+}
+#smallText{
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+#smallTextYellow{
+  color: #ffdc00;
+}
+.smallTextWhite{
+  color: #ffffff;
+  font-weight: 300;
+}
+.countdown{
+  display: flex;
+  justify-content: flex-start;
+}
+.countdownElipse{
+  display: flex;
+  color: #333333;
+  font-weight: 700;
+  font-size: 60px;
+ 
+}
+.countdownNumber{ 
+  background: #333333;
+  color: #fff;
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size:50px;
+}
+.buttonOrder{
+  background-color: #ffdc00;
+  width: 250px;
+  height: 65px;
+  border-radius: 8px;
+  margin: 30px 0px;
+  color: #333333;
+  font-weight: 700;
+  font-size: 23px;
+  box-shadow: 0 3px 0 #b9a000;
+
+}
+
+/*---MAIN CHARACTERISTICS---*/
+.mainCharacteristics{
+  display: block;
+  width: 100%;
+
+}
+h2{
+  text-align:center;
+  font-size: 27px;
+  font-weight: 600;
+}
+.bigYellowLine{
+  height: 2px;
+  width: 280px;
+  background-color: #ffdc00;
+  margin: 20px auto;
+}
+.littleYellowLine{
+  height: 2px;
+  width: 80px;
+  background-color: #ffdc00;
+  margin: 10px 0;
+}
+.blockChar{
+  display: flex;
+  justify-content: space-around;
+}
+
+.blockCharFirst1{
+  width: 50%;
+}
+.blockCharFirst2{
+  width: 25%;
+}
+.blockCharFirst3{
+  width: 25%;
+  align-items: center;
+}
+.blockCharSecond1{
+  width: 50%;
+}
+.blockCharSecond2{
+  width: 25%;
+}
+.blockCharSecond3{
+  width: 25%;
+}
+.blockCharThird1{
+  width: 62%;
+  display: block;
+}
+.blockCharThird2{
+  width: 62%;
+}
+.blockChar.Th{
+  text-align: left;
+  
+}
+.blockCharBText{
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.75;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #333333;
+}
+.blockCharSText{
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.35px;
+  color: #9a9a9a;
+  margin-top: 8px;
+}
+
+.reasonBuy{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+}
+.reasonBlock{
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#yellowText{
+  color: #ffdc00;
+  font-weight: 700;
+  font-size:15px;
+}
+.Text{
+  font-size: 15px;
+  color: #a39696;
+  align-items: baseline;
+}
+#textText{
+  
+  font-size: 15px;
+  font-weight: 600;
+}
+.save{
+  display: flex;
+  justify-content: space-between;
+}
+
+.brokenBamper{
+  display: flex;
+  justify-content: space-between;
+}
+.howSave{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.feedBackBlock{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: left;
+}
+.feedBackBlock div{
+  margin: 20px;
+}
+.feedPhoto{
+  display: flex;
+  padding-left: 60%;
+  align-items: center;
+
+}
+.feedPhoto img{
+  border-radius: 50%;
+}
+.feedPhoto span span i{
+  color: lightgrey; 
+}
+.warrantRow{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  text-align:center;
+}
+.delivery{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  text-align: left;
+  letter-spacing: -0.5px;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+}
+.formLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.plusPosition{
+  display: flex;
+  justify-content: flex-end;
+}
+.pricePosition{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invertedImage{
+  transform: rotateX(180deg);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input{
+  background-color: white;
+  display: block;
+  margin: 10px 0;
+  height: 50px;
+  width: 80%;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.buttonPosition{
+  padding-left: 70px;
+
+}
+footer div{
+  height: 100px;
+  background: #333333;
+}
+.mirrow-plus{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.mirrow-plus img:nth-child(1) {
+  transform: scale(-1, 1);
+}
+.text1{
+  font-weight: 555;
+  font-size: 18px;
+}
