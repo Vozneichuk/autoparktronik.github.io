@@ -41,7 +41,7 @@ body{
 .headerRow{
   display: flex;
   justify-content: space-around;
-  margin: 1px -340px;
+  margin: 1px -330px;
   align-items: center;
   
 }
@@ -82,11 +82,12 @@ body{
   color: #ffffff;
   height: 40px;
   width: 170px; 
-  margin: 10px auto;
+
 }
 .requestCall{
   text-align: right;
-  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
 }
 /*---MAIN PAGE---*/
 
@@ -102,15 +103,31 @@ body{
 }
 
 .rightColumn{
-  display: block;
-  text-align: right;
+  display: flex;
+  flex-direction: column;
 }
-
+.price{
+  width: 45%;
+  margin-left: 120px;
+}
 
 .leftColumn{
   display: block; 
   margin: 0 90px;
 
+}
+.leftColumn h1{
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:#ffffff;
+}
+.leftColumn p{
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  color: #ffffff;
 }
 
 #bigText{
@@ -131,7 +148,7 @@ body{
   font-weight: 700;
   letter-spacing: 1.4px;
 }
-#smallTextYellow{
+.smallTextYellow{
   color: #ffdc00;
 }
 .smallTextWhite{
@@ -183,16 +200,16 @@ h2{
   font-weight: 600;
 }
 .bigYellowLine{
-  height: 2px;
+  height: 1px;
   width: 280px;
   background-color: #ffdc00;
-  margin: 20px auto;
+  margin: 35px auto;
 }
 .littleYellowLine{
   height: 2px;
   width: 80px;
   background-color: #ffdc00;
-  margin: 10px 0;
+  margin: 35px 0;
 }
 .blockChar{
   display: flex;
@@ -201,9 +218,11 @@ h2{
 
 .blockCharFirst1{
   width: 50%;
+  line-height: 2.8;
 }
 .blockCharFirst2{
   width: 25%;
+  line-height: 2.8;
 }
 .blockCharFirst3{
   width: 25%;
@@ -211,9 +230,11 @@ h2{
 }
 .blockCharSecond1{
   width: 50%;
+  line-height: 2.8;
 }
 .blockCharSecond2{
   width: 25%;
+  line-height: 2.8;
 }
 .blockCharSecond3{
   width: 25%;
@@ -224,10 +245,15 @@ h2{
 }
 .blockCharThird2{
   width: 62%;
+  display: flex;
 }
 .blockChar.Th{
-  text-align: left;
-  
+  text-align: left; 
+}
+.blockCharThird2 img{
+  margin-left: 220px;
+  width: 100%;
+  height: 55%;
 }
 .blockCharBText{
   font-style: normal;
@@ -245,6 +271,7 @@ h2{
   letter-spacing: 0.35px;
   color: #9a9a9a;
   margin-top: 8px;
+  line-height: 2.5;
 }
 
 .reasonBuy{
@@ -261,17 +288,23 @@ h2{
   justify-content: center;
   text-align: center;
 }
-#yellowText{
+.yellowText{
   color: #ffdc00;
   font-weight: 700;
   font-size:15px;
+}
+span.yellowText1{
+  color: #ffdc00;
+  font-weight: 700;
+  font-size:15px;
+  margin: 40px auto;
 }
 .Text{
   font-size: 15px;
   color: #a39696;
   align-items: baseline;
 }
-#textText{
+.textText{
   
   font-size: 15px;
   font-weight: 600;
@@ -291,6 +324,7 @@ h2{
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 80px;
 }
 .feedBackBlock{
   display: flex;
@@ -319,6 +353,7 @@ h2{
   justify-content: space-around;
   align-items: baseline;
   text-align:center;
+  margin-top: 50px;
 }
 .delivery{
   display: flex;
@@ -326,6 +361,7 @@ h2{
   align-items: baseline;
   text-align: left;
   letter-spacing: -0.5px;
+  margin-top: 50px;
 }
 
 .form{
@@ -338,7 +374,6 @@ h2{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
 }
 .plusPosition{
   display: flex;
@@ -388,4 +423,53 @@ footer div{
 .text1{
   font-size: 18px;
   font-weight: 700;
+}
+.girl img{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.feedPhoto span span{
+  font-style: italic;
+  color: grey;
+  opacity: 0.3;
+}
+.feedPhoto span{
+  font-weight: bolder;
+}
+.warrantyDelivery{
+  margin-top: 100px;
+}
+.mainReason{
+  margin-top: 100px;
+}
+.howWork{
+  margin-top: 100px;
+}
+.feedBack{
+  margin-top: 80px;
+}
+.invertedImage img{
+  width: 80%;
+  margin-left: 80px;
+}
+.pricePosition div img{
+  width: 80%;
+  margin-right: 80px;
+}
+.orderForm{
+  margin-top: 100px;
+}
+.videoDemonstration{
+  display: flex;
+  justify-content: center;
+}
+.videoDemonstration video{
+  width: 93%;
+  height: 50%;
+}
+div.reasonBlock div img{
+  margin-bottom: 20px;
+}
+div.reasonBlock div span.yellowText1{
+  line-height: 2.5;
 }
