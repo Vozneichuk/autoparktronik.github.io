@@ -473,3 +473,13 @@ div.reasonBlock div img{
 div.reasonBlock div span.yellowText1{
   line-height: 2.5;
 }
+
+div.warrantyDelivery ul li{
+  font-style: italic;
+}
+div.delivery div ul li{
+  font-style: italic;
+}
+div.warrantyDelivery span{
+  font-style: italic;
+}
