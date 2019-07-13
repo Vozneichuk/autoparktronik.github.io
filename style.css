@@ -483,32 +483,16 @@ div.warrantyDelivery span{
   font-style: italic;
 }
 
-@media (min-width: 576px){
-.container {
-  max-width: 540px;
-  display: flex;
-  flex-direction: column;
+@media (max-width: 900px){
+  header{
+    background-color: blue;
   }
-}
-@media (min-width: 768px){
-  .container {
-  max-width: 720px;
-  display: flex;
-  flex-direction: column;
-  order: 2;
+  header.header{
+    background-color: blue;
   }
 }
 
-@media (min-width: 992px){
-  .container {
-  max-width: 960px;
-  
-  }
-}
 
-@media(min-width:1200px){
-  .container{
-  max-width: 1140px;
-  
-  }
-}
+
+
+
