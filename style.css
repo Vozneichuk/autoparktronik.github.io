@@ -18,10 +18,9 @@ body{
 }
 
 .container{
-  width: 1000px;
-  display: block;
+  width: 75%;
   margin: auto;
-
+  
   
 }
 
@@ -482,4 +481,34 @@ div.delivery div ul li{
 }
 div.warrantyDelivery span{
   font-style: italic;
+}
+
+@media (min-width: 576px){
+.container {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  }
+}
+@media (min-width: 768px){
+  .container {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  }
+}
+
+@media (min-width: 992px){
+  .container {
+  max-width: 960px;
+  
+  }
+}
+
+@media(min-width:1200px){
+  .container{
+  max-width: 1140px;
+  
+  }
 }
