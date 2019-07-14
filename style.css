@@ -5,6 +5,7 @@ body{
   font-family: 'Open Sans', Courier, monospace;
   text-align: left;
   overflow-x: hidden;
+  flex-wrap: wrap;
 }
 
 *,
@@ -18,8 +19,7 @@ body{
 }
 
 .container{
-  width: 75%;
-  margin: auto;
+  width: 100%;
   
   
 }
@@ -30,9 +30,6 @@ body{
   width:100%;
   background-color: #ffdc00;
   position: absolute;
-  top:0;
-  left:0;
-  right:0;
   height:100px;
   padding-top: 6px;
 }
@@ -40,7 +37,7 @@ body{
 .headerRow{
   display: flex;
   justify-content: space-around;
-  margin: 1px -330px;
+  margin: 1px -150px;
   align-items: center;
   
 }
@@ -95,7 +92,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 120vh;
+  height: 100vh;
   background: url('./img/background.png')  no-repeat;
   background-size: cover;
   background-color: rgba(0,0,0,0.9);
@@ -112,8 +109,8 @@ body{
 
 .leftColumn{
   display: block; 
-  margin: 0 90px;
-
+  margin: 0 100px;
+  padding-top: 100px;
 }
 .leftColumn h1{
   font-size: 36px;
@@ -191,15 +188,16 @@ body{
 .mainCharacteristics{
   display: block;
   width: 100%;
-
+  padding: 0 100px;
 }
+
 h2{
   text-align:center;
   font-size: 27px;
   font-weight: 600;
 }
 .bigYellowLine{
-  height: 1px;
+  height: 2px;
   width: 280px;
   background-color: #ffdc00;
   margin: 35px auto;
@@ -334,21 +332,23 @@ span.yellowText1{
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 80px;
+  padding: 30px 100px;
 }
+
 .feedBackBlock{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   text-align: left;
+  padding: 30px 150px;
 }
 .feedBackBlock div{
   margin: 20px;
 }
 .feedPhoto{
   display: flex;
-  padding-left: 60%;
+  padding-left: 55%;
   align-items: center;
 
 }
@@ -365,6 +365,11 @@ span.yellowText1{
   text-align:center;
   margin-top: 50px;
 }
+.warrantRow div{
+  display: flex;
+  flex-direction: column;
+}
+
 .delivery{
   display: flex;
   justify-content: space-around;
@@ -372,13 +377,18 @@ span.yellowText1{
   text-align: left;
   letter-spacing: -0.5px;
   margin-top: 50px;
+  padding: 30px 100px;
 }
+.warrantRow div{
+  align-items: center;
+}
+
 
 .form{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0 20px 0;
+
 }
 .formLeft {
   display: flex;
@@ -447,13 +457,13 @@ footer div{
   font-weight: bolder;
 }
 .warrantyDelivery{
-  margin-top: 100px;
+  padding: 30px 100px;
 }
 .mainReason{
-  margin-top: 100px;
+  padding: 30px 100px;
 }
 .howWork{
-  margin-top: 100px;
+  padding: 30px 100px;
 }
 .feedBack{
   margin-top: 80px;
@@ -465,9 +475,19 @@ footer div{
 .pricePosition div img{
   width: 80%;
   margin-right: 80px;
+  position: relative;
+
 }
 .orderForm{
-  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+}
+.orderForm span{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
 }
 .videoDemonstration{
   display: flex;
@@ -531,14 +551,70 @@ div.leftColumn div span{
 div.leftColumn div span.bigTextYellow{
   color: #ffdc00;
 }
+.formRight{
+  margin-right: 200px;
+}
 
-@media (max-width: 900px){
-  header{
-    background-color: blue;
+@media (max-width: 780px){
+  body{
+    overflow-x: hidden;
+
   }
-  header.header{
-    background-color: blue;
+  .container{
+    width: 100%;
+    flex-wrap: wrap;
+
   }
+  .header{
+    width: 100%;
+ 
+  }
+  .mainCharacteristics .img{
+    width: 100%;
+  }
+  .mainCharacteristics .img1{
+    width: 50%;
+    height: 40%;
+    margin-left: 100px;
+  }
+  .requestCall{
+    margin-right: 75px;
+    }
+  .mainPage{
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .leftColumn{
+    margin: 0 0;
+  }
+  .rightColumn img{
+    width: 40%;
+  }
+  .rightColumn img.rev{
+    width: 70%;
+  }
+  .feedPhoto{
+    padding-left: 45%;
+  }
+  .warrantRow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 70px;
+  }
+  .delivery{
+    padding: 30px 70px;
+  }
+  .form{
+    flex-wrap: wrap;
+  }
+  .rightColumn{
+    display:flex;
+    justify-content: flex-end;
+  }
+  .feedBackBlock{
+  flex-wrap: wrap;
+  }
+
 }
 
 
