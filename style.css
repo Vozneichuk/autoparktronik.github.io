@@ -679,7 +679,7 @@ div.leftColumn div span.bigTextYellow{
   }
   .mainPage{
     flex-wrap: wrap;
-    height: 120vh;
+    height: 140vh;
     overflow-y: hidden;
   }
   .countdown{
