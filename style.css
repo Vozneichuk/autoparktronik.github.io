@@ -37,7 +37,6 @@ body{
 .headerRow{
   display: flex;
   justify-content: space-around;
-  margin: 1px -150px;
   align-items: center;
   
 }
@@ -321,7 +320,21 @@ span.yellowText1{
   display: flex;
   justify-content: space-between;
 }
-
+.girl{
+  width:100%;
+}
+.broken{
+  width:47%;
+}
+.broken1{
+  width:47%;
+}
+.rev1{
+  width:100%;
+}
+.stand1{
+  width:100%;
+}
 .brokenBamper{
   display: flex;
   justify-content: space-between;
@@ -457,7 +470,7 @@ footer div{
   font-weight: bolder;
 }
 .warrantyDelivery{
-  padding: 30px 100px;
+  padding: 90px 100px;
 }
 .mainReason{
   padding: 30px 100px;
@@ -479,13 +492,13 @@ footer div{
 
 }
 .orderForm{
-
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
 }
 .orderForm span{
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
   text-align: center;
 }
@@ -556,10 +569,7 @@ div.leftColumn div span.bigTextYellow{
 }
 
 @media (max-width: 780px){
-  body{
-    overflow-x: hidden;
-
-  }
+  
   .container{
     width: 100%;
     flex-wrap: wrap;
@@ -594,7 +604,8 @@ div.leftColumn div span.bigTextYellow{
     width: 70%;
   }
   .feedPhoto{
-    padding-left: 45%;
+    padding-left: 55%;
+
   }
   .warrantRow{
     display: flex;
@@ -604,9 +615,6 @@ div.leftColumn div span.bigTextYellow{
   .delivery{
     padding: 30px 70px;
   }
-  .form{
-    flex-wrap: wrap;
-  }
   .rightColumn{
     display:flex;
     justify-content: flex-end;
@@ -614,7 +622,30 @@ div.leftColumn div span.bigTextYellow{
   .feedBackBlock{
   flex-wrap: wrap;
   }
-
+  .girl{
+    width:100%;
+  }
+  .broken{
+    width:48%;
+  }
+  .broken1{
+    width:48%;
+  }
+  .rev1{
+    width:80%;
+  }
+  .stand1{
+    width:80%;
+  }
+  img.leftArr {
+    display:none;
+  }
+  img.rightArr{
+    display:none;
+  }
+  img.carNumber{
+    margin-right: 60px;
+  }
 }
 
 
