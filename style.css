@@ -648,6 +648,119 @@ div.leftColumn div span.bigTextYellow{
   }
 }
 
+@media (max-width: 400px){
+  .body{
+    overflow-x: hidden;
+  }
+  .shopLogo{
+    font-size: 10px;
+  }
+  .headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bigYellowLine{
+    width: 40%;
+  }
+  .requestCall{
+    margin-right:0 ;
+  }
+  .form{
+    flex-wrap: wrap;
+  }
+ 
+  .feedPhoto{
+    padding: 0 0 0 0;
+    margin-left: 20px;
+  }
+  .mainPage{
+    flex-wrap: wrap;
+    height: 120vh;
+    overflow-y: hidden;
+  }
+  .countdown{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .countdownElipse{
+    display: flex;
+    color: #333333;
+    font-weight: 700;
+    font-size: 50px;
+   
+  }
+  .countdownNumber{ 
+    background: #333333;
+    color: #fff;
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size:30px;
+  }
+  .leftColumn span{
+    font-size: 15px;
+  }
+  div.leftColumn div span{
+    font-size:28px;
+  }
+  div.leftColumn button.buttonOrder{
+    position: absolute;
+    margin: 400px 55px;
+  }
+  img.rev{
+    margin: 0 55px;
+    padding-bottom:50px;
+  }
+  img.price{
+    margin: 0 100px;
+    width:40%;
+    padding-bottom:150px;
+  }
+  .mainCharacteristics{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0 0 0 0;
+  }
+  .mainCharacteristics .img1{
+    margin-left: 40px;
+    width: 70%;
+    height: 30%;
+  }
+  div.blockChar.Fo{
+    margin: 0 60px;
+  }
+  .mainReason{
+    padding: 0 0 0 0;
+    flex-wrap: wrap;
+  }
+  .reasonBuy{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .howWork{
+    padding: 0 0 0 0;
+  }
+  .howSave{
+    padding: 0 0 0 0 ;
+  }
+  .save{
+    flex-wrap: wrap;
+  }
+  .feedBackBlock{
+    padding: 0 220px;
+  }
+  .warrantRow{
+    margin: 0 0 0 0;
+  }
+  .delivery{
+    display: block;
+  }
+}
+
 
 
 
