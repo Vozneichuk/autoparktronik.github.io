@@ -489,6 +489,7 @@ div.warrantyDelivery span{
 }
 div.leftColumn h1 div span.bigTextYellow{
   display: flex;
+  flex-direction: column;
 }
 div.leftColumn p{
   display: flex;
@@ -514,6 +515,21 @@ span.yellowText span{
 }
 span.textText span{
   color: black;
+}
+span.smallTextYellow span.one{
+  display:flex;
+  color: #ffdc00;
+}
+div.leftColumn div span{
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+div.leftColumn div span.bigTextYellow{
+  color: #ffdc00;
 }
 
 @media (max-width: 900px){
