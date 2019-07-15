@@ -97,7 +97,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 65vh;
+
   background: url('./img/background.png')  no-repeat;
   background-size: cover;
   background-color: rgba(0,0,0,0.9);
@@ -366,7 +366,7 @@ span.yellowText1{
   padding: 30px 150px;
 }
 .feedBackBlock div{
-  margin: 20px;
+  padding: 0 0 0 0;
 }
 .feedPhoto{
   display: flex;
@@ -577,8 +577,9 @@ div.leftColumn div span.bigTextYellow{
 }
 
 @media (max-width: 900px){
+
   div.leftColumn button.buttonOrder{
-    margin-left: 250px;
+   
   }
   .orderForm{
     flex-wrap:wrap;
@@ -610,6 +611,7 @@ div.leftColumn div span.bigTextYellow{
   }
   .leftColumn{
     margin: 0 0;
+
   }
   .rightColumn img{
     width: 40%;
@@ -657,9 +659,7 @@ div.leftColumn div span.bigTextYellow{
   img.rightArr{
     display:none;
   }
-  img.carNumber{
-    align-items: center;
-  }
+
   .formRight{
     display: flex;
     flex-direction: column;
@@ -674,7 +674,24 @@ div.leftColumn div span.bigTextYellow{
 }
 
 @media (max-width: 600px){
-  
+  .leftColumn{
+    width: 100%;
+  }
+  header.header{
+    padding: 10px 10px 10px 10px;
+  }
+  .mainCharacteristics h2{
+    padding: 0 0 0 30px;
+  }
+  .warrantyDelivery{
+    padding: 20px 20px 20px 20px;
+  }
+  .feedBackBlock{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    align-items: start;
+  }
   .buttonPosition{
     padding: 0 0 0 0;
   }
@@ -742,17 +759,20 @@ div.leftColumn div span.bigTextYellow{
   }
   div.leftColumn button.buttonOrder{
     position: absolute;
-    margin: 300px 70px;
-    width: 50%;
+    margin: 210px 100px;
+    width: 40%;
     height: 7%;
+    font-size: 20px;
+
   }
   img.rev{
-    margin: 0 55px;
-    padding-bottom:50px;
+    margin-bottom: 200px;
+    margin: 0 15px;
+  
   }
   img.price{
     margin: 0 130px;
-    width:28%;
+    width:23%;
     padding-bottom:100px;
     
   }
@@ -767,7 +787,7 @@ div.leftColumn div span.bigTextYellow{
     height: 30%;
   }
   div.blockChar.Fo{
-    margin: 0 60px;
+    margin-left:20%;
   }
   .mainReason{
     padding: 0 0 0 0;
@@ -789,14 +809,95 @@ div.leftColumn div span.bigTextYellow{
   .save{
     flex-wrap: wrap;
   }
-  .feedBackBlock{
-    padding: 0 0 0 0;
-  }
+  
   .warrantRow{
     margin: 0 0 0 0;
   }
   .delivery{
     display: block;
+    padding: 20px 20px 20px 20px;
+  }
+  .bigYellowLine{
+    display:none;
+  }
+  .littleYellowLine{
+    display:none;
+  }
+  .blockChar.Fi{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+  }
+  .blockCharFirst2{
+    margin-right:24%;
+
+  }
+  .blockCharFirst3{
+    width: 80%;
+  }
+  .blockChar.Se{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+  }
+  .blockCharSecond2{
+    margin-right:24%;
+  }
+  .blockCharSecond3{
+    width:80%;
+  }
+  .blockChar.Th{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+  }
+  .blockCharThird2{
+    width:90%
+  }
+}
+
+@media (max-width: 330px){
+  .requestCall span{
+    font-size: 10px;
+  }
+  .requestCall input{
+    width: 130px;
+  }
+  .leftColumn{
+    max-width: 320px;
+
+  }
+  .countdownNumber{
+    font-size:25px;
+  }
+  .countdownElipse{
+    font-size: 25px;
+  }
+  div.blockChar.Fo{
+    margin-left:40px;
+    margin-right:0px;
+  }
+  .feedPhoto{
+    margin: 0 0 0 0;
+
+  }
+  .warrantRow{
+    flex-wrap:wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .warrantRow div{
+    margin-top: 10px;
+  }
+  .orderForm img{
+    width: 100%;
   }
 }
 
