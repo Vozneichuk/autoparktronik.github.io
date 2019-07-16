@@ -610,7 +610,7 @@ div.leftColumn div span.bigTextYellow{
     overflow-x: hidden;
   }
   .leftColumn{
-    margin: 0 0;
+    margin: 80px;
 
   }
   .rightColumn img{
@@ -885,6 +885,7 @@ div.leftColumn div span.bigTextYellow{
   }
   .feedPhoto{
     margin: 0 0 0 0;
+    font-size: 15px;
 
   }
   .warrantRow{
@@ -897,7 +898,17 @@ div.leftColumn div span.bigTextYellow{
     margin-top: 10px;
   }
   .orderForm img{
-    width: 100%;
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+  }
+  .feedBack{
+    margin: 10px;
+  }
+  .formRight{
+    margin-left: 10px;
+  }
+  .howSave{
+    padding: 15px 15px 15px 15px;
   }
 }
 
