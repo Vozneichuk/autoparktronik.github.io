@@ -674,6 +674,9 @@ div.leftColumn div span.bigTextYellow{
 }
 
 @media (max-width: 600px){
+  .rightColumn{
+   margin: 0 0 100px 0;
+  }
   .leftColumn{
     width: 100%;
   }
@@ -759,7 +762,7 @@ div.leftColumn div span.bigTextYellow{
   }
   div.leftColumn button.buttonOrder{
     position: absolute;
-    margin: 210px 100px;
+    margin: 300px 80px;
     width: 40%;
     height: 7%;
     font-size: 20px;
